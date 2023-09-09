@@ -9,7 +9,7 @@ document.getElementById('salesforceForm').addEventListener('submit', async funct
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
         },
-        body: `grant_type=password&client_id=YOUR_CONSUMER_KEY&client_secret=YOUR_CONSUMER_SECRET&username=YOUR_SALESFORCE_USERNAME&password=YOUR_SALESFORCE_PASSWORD_WITH_SECURITY_TOKEN`
+        body: `grant_type=password&client_id=3MVG9wt4IL4O5wvIrDAEJFQDJvM6StZCok08Z8QaRez4KeFiNgTRDelHBHkOO0xZPdoTWVJXE8wiqMFwEa.F6&client_secret=DFA6D65C8ECD79A3C6AD031D683FB85C5B7133E8FB54D6B65BE97C498474B165&username=shreeraj@sselectricals.co.in&password=Trishika4200SeNWVUiU47lq7unM5uogj5dYa`
     });
 
     let authData = await authResponse.json();
